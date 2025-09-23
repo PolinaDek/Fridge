@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'fridge_manager';
+$dbname = 'task_manager';
 $username = 'root';
 $password = ''; 
 
@@ -10,4 +10,5 @@ try {
 } catch (PDOException $e) {
     die("Ошибка подключения к базе данных: " . $e->getMessage());
 }
+
 ?>
