@@ -1,0 +1,11 @@
+CREATE DATABASE task_manager; 
+USE task_manager;
+CREATE TABLE products (
+   	id INT AUTO_INCREMENT PRIMARY KEY,
+   	name VARCHAR(255) NOT NULL,
+   	quantity INT NOT NULL,
+   	expiry_date DATE NOT NULL,
+  	status ENUM('ok', 'eat_soon', 'expired', 'out_of_stock') NOT NULL DEFAULT 'ok',
+   	created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    	description TEXT
+);
