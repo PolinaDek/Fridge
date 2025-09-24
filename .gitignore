@@ -24,14 +24,14 @@
 /app/Config/database.php
 /vendors/*
 
-# Исключаем конфиденциальные файлы
+
 config.php
 .env
 
-# Исключаем системные файлы
+
 .DS_Store
 .htaccess
 
-# Исключаем логи и временные файлы
+
 logs/
 tmp/
